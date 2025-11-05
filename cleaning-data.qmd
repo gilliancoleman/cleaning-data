@@ -1,6 +1,28 @@
 ---
-title: "Cleaning Data"
+title: "Cleaning Messy Data"
 format: html
 ---
 
+Today's exercise you will take data entered into excel from a mangrove propagule growth experiment and write a function to clean the data and prepare it for analysis. This is a common task you could be given as we will often be given a spreadsheet from an experiment. Often there are errors, typos, wrong data types that need to be carefully dealt with prior to analyzing the data.
 
+**Experimental Design:**
+
+2 Locations
+3 Treatments (Control, Treatment 1, Treatment 2)
+25 Propagules in each Location/Treatment block
+
+Measure the propagule height for the 25 propagules (repeated measures of same propagule) once a week for 6 months
+
+**The Function will:**
+
+1.  read in data from an excel spreadsheet (found in the /data directory)
+
+2.  return a dataframe that is ready for analysis
+
+Hints: inspect the data first and come up with a plan
+
+**Bonus Exercise**
+
+Create another function that plots the growth over time for each Location by Treatment type
+
+![](bonus_plot.jpeg)
